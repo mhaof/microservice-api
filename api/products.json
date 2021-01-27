@@ -1,0 +1,14 @@
+[
+    { 
+        "productName": "Apple",     
+        "quantity": 1, 
+        "id": "1"
+    },
+    { 
+        "productName": "Fazer", 
+        "quantity": 3, 
+        "id": "2"
+    }
+]
+
+
