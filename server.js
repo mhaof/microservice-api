@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use("/api", routes);
 
 // Landing page
-app.get("/", (req, res) => res.send("Welcome to Api front page. "));
+app.get("/api", (req, res) => res.send("Welcome to Api front page. Please check README for usage"));
 
 // Error page
 app.all("*", (req, res) => res.send("Route not found!"));
